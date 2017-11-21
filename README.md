@@ -9,3 +9,4 @@ Just keep in mind, that like most programming problems, there is rarely a single
 
 Good luck!
 
+## [A brief introduction to FHIR](voight-kampff/fhir.md)
