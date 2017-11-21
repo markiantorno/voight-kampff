@@ -41,11 +41,11 @@ So when curl-ing the server directly for a specific resource, you can use:
 ```
 curl "http://fhirtest.uhn.ca/baseDstu3/Patient/191025/_history/6" 
 ```
-...for the specific hitorical version, or:
+...for the specific historical version, or:
 ```
 curl "http://fhirtest.uhn.ca/baseDstu3/Patient/191025/"
 ```
-...for the latest.
+...for the latest version, regardless of how many updates have been made.
 
 ## 
 
