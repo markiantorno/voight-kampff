@@ -24,7 +24,8 @@ There are two pieces of knowledge you will need to effectively complete the assi
   * Update the family name, gender, or birthday of each user, and update the patient on the FHIR test server with the new information. 
   * Delete the user from the FHIR test server.
 4. Refresh the list and fetch the new latest 10 users. 
-5. Upload the project to a public GitHub repository so we can clone and look at what you've done.
+5. Change the order of patients displayed, based on birthday, or name (alphabetical).
+6. Upload the project to a public GitHub repository so we can clone and look at what you've done.
 
 ##### Bonus points for:
 
