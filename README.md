@@ -1,4 +1,6 @@
 # voight-kampff
+~A very advanced form of lie detector that measures contractions of the iris muscle and the presence of invisible airborne particles emitted from the body. The bellows were designed for the latter function and give the machine the menacing air of a sinister insect. The VK is used primarily by Blade Runners to determine if a suspect is truly human by measuring the degree of his empathic response through carefully worded questions and statements.~
+
 A technical test for Android development.
 
 ## Introduction:
@@ -20,10 +22,10 @@ There are two pieces of knowledge you will need to effectively complete the assi
 1. Downloads the 10 most recently updated patients from the test server.
 2. Displays a list of these patients to the user.
 3. Allows the user to do the following to a patient object:
-  * View the family name, gender, and birthday of each user if they want.
-  * Update the family name, gender, or birthday of each user, and update the patient on the FHIR test server with the new information. 
-  * Delete the user from the FHIR test server.
-4. Refresh the list and fetch the new latest 10 users. 
+  * View the family name, gender, and birthday of each patient if they want.
+  * Update the family name, gender, or birthday of each patient, and update the patient on the FHIR test server with the new information. 
+  * Delete the patient from the FHIR test server.
+4. Refresh the list and fetch the new latest 10 patients. 
 5. Change the order of patients displayed, based on birthday, or name (alphabetical).
 6. Upload the project to a public GitHub repository so we can clone and look at what you've done.
 
