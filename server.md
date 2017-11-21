@@ -28,9 +28,10 @@ The response field lets us know the response to our request, in this case a HTTP
 
 ![alt text][body]
 
-The last section of the output is the response body. You'll see a list of [patients](https://www.hl7.org/fhir/patient.html) with links to explore further. 
+As you can see in the above screen shot, the last section of the output is the response body. You'll see a list of [patients](https://www.hl7.org/fhir/patient.html) with links to explore further. 
 
-There are two key takeaways from the data you need to note:
+There are two key takeaways from the response you need to note:
+
 1. The request doesn't return a straight array of patient entries, it returns the patients in this FHIR structure known as a [Bundle](https://www.hl7.org/fhir/bundle.html). The structure of the bundle and how the entries are stored is outlined in the verbose JSON output at the bottom of the page.
 2. Although the id of the patient in FHIR is a long, stored as a String, the webpage displays the full qualified id. So you will see the id column contains the type, id, and history values as well:
 ```
@@ -46,8 +47,6 @@ curl "http://fhirtest.uhn.ca/baseDstu3/Patient/191025/_history/6"
 curl "http://fhirtest.uhn.ca/baseDstu3/Patient/191025/"
 ```
 ...for the latest version, regardless of how many updates have been made.
-
-## 
 
 [request]: request.png
 [response]: response.png
