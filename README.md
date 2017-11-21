@@ -28,7 +28,7 @@ There are two pieces of knowledge you will need to effectively complete the assi
 
 ##### Bonus points for:
 
-1. Being able to adjust the number of patients that can be stored at one time.
+1. Being able to adjust the number of patients that are downloaded at one time.
 2. Storing the patient data locally. (In whatever persistence tool you want)
 3. Implementing other CRUD operations with the test server.
 
