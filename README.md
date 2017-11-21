@@ -9,9 +9,9 @@ First off, thanks for taking the time to apply to our organization. We really ap
 
 There are two pieces of knowledge you will need to effectively complete the assignment.
 
-### 1. [A brief introduction to FHIR](voight-kampff/fhir.md)
+### 1. [A brief introduction to FHIR](fhir.md)
 
-### 2. [The test server, and how it works](voight-kampff/server.md)
+### 2. [The test server, and how it works](server.md)
  
 ## The Assignment:
 
