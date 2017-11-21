@@ -1,5 +1,5 @@
 # voight-kampff
-~A very advanced form of lie detector that measures contractions of the iris muscle and the presence of invisible airborne particles emitted from the body. The bellows were designed for the latter function and give the machine the menacing air of a sinister insect. The VK is used primarily by Blade Runners to determine if a suspect is truly human by measuring the degree of his empathic response through carefully worded questions and statements.~
+~A very advanced form of lie detector that measures contractions of the iris muscle and the presence of invisible airborne particles emitted from the body. The bellows were designed for the latter function and give the machine the menacing air of a sinister intent. The VK is used primarily by Blade Runners to determine if a suspect is truly human by measuring the degree of his empathic response through carefully worded questions and statements.~
 
 A technical test for Android development.
 
