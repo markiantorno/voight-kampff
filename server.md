@@ -32,7 +32,7 @@ As you can see in the above screen shot, the last section of the output is the r
 
 There are two key takeaways from the response you need to note:
 
-1. The request doesn't return a straight array of patient entries, it returns the patients in this FHIR structure known as a [Bundle](https://www.hl7.org/fhir/bundle.html). The structure of the bundle and how the entries are stored is outlined in the verbose JSON output at the bottom of the page.
+1. The request doesn't return a straight array of patient entries, it returns the patients in this FHIR structure known as a [Bundle](https://www.hl7.org/fhir/bundle.html). The structure of the bundle and how the entries are stored is outlined in the verbose JSON output at the bottom of the response body section.
 2. Although the id of the patient in FHIR is a long, stored as a String, the webpage displays the full qualified id. So you will see the id column contains the type, id, and history values as well:
 ```
 Patient/191021/_history/6
