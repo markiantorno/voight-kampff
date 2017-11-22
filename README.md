@@ -20,7 +20,7 @@ There are two pieces of knowledge you will need to effectively complete the assi
 #### Your job is to create a basic Android health application that does the following core tasks:
 
 1. Downloads the 10 most recently updated patients from the test server.
-2. Displays a list of these patients to the user.
+2. Displays a list of these patients to the user, with Name. 
 3. Allows the user to do the following to a patient object:
   * View the family name, gender, and birthday of each patient if they want.
   * Update the family name, gender, or birthday of each patient, and update the patient on the FHIR test server with the new information. 
@@ -42,6 +42,7 @@ There are two pieces of knowledge you will need to effectively complete the assi
  3. Unit tests. How do you know that the code is doing what it's supposed to do? At minimum, I would expect you to test that you can get and set the patient fields correctly.
  4. Does it look good? It doesn't have to be a piece of art, but it would be good if the application followed the [google material design guidelines](https://material.io/guidelines/) to some degree. Medical apps don't work if people think they're ugly, unintuitive, and don't use them.
  5. What libraries are you using? We don't expect you to home roll your own REST framework, or JSON deserializer. How familiar are you with the most commonly used Android development tools available?
+ 6. You can do this in Java or Kotlin, whichever you prefer.
  
 Typically, we give one week for this assignment to be done. If you feel like this is too short, or have special accommodations you want us to be aware of, please do not hesitate to let us know. 
  
