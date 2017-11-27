@@ -20,6 +20,7 @@ There are two pieces of knowledge you will need to effectively complete the assi
 #### Your job is to create a basic Android health application that does the following core tasks:
 
 1. Downloads the 10 most recently updated patients from the test server.
+  * Just as a note, patient objects are complicated...ignore all the fields you do not need when you pull the data from the server. Don't create a tonne of POJOs to cover every field when you download the patient object.
 2. Displays a list of these patients to the user, with Name. 
 3. Allows the user to do the following to a patient object:
   * View the family name, gender, and birthday of each patient if they want.
