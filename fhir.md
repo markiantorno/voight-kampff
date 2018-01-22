@@ -9,7 +9,7 @@ What does that mean to you right now? Probably not too much (unless it does, in 
 To import the necesary library components for fhir, use the following import in your build.gradle file:
 
 ```groovy
-    implementation 'ca.uhn.hapi.fhir:hapi-fhir-structures-dstu3:3.1.0-SNAPSHOT'
+    implementation 'ca.uhn.hapi.fhir:hapi-fhir-structures-dstu3:3.1.0'
 ```
 The dependency comes from Maven Central, which should automatically in the new project your create. If you are having issues, the entry in the Maven repository browser is [here](https://mvnrepository.com/artifact/ca.uhn.hapi.fhir/hapi-fhir-structures-dstu3/3.0.0). This will contain the necessary objects for this demo application.
 
